@@ -16,7 +16,7 @@ const Navbar = () => {
       console.log(accounts);
       let crrBal = await web3.eth.getBalance(accounts[0]);
       let contractBal = await web3.eth.getBalance(
-        "0xB107C6707D5bCAB72A7Fb3352b3008A8a601A5Aa"
+        "0x92B599d7B6e1921956ed851F2a8D77ee5A19832c"
       );
       setCurrentAccountBalance(crrBal);
       setContractBalance(contractBal);

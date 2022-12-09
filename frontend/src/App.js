@@ -4,6 +4,7 @@ import RegisterTask from "./Components/RegisterTask";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import ListTasks from "./Components/ListTasks";
+import TransactionSuccessful from "./Components/TranscationSuccessful";
 // React Router App
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/register-task" element={<RegisterTask />} />
         <Route path="/task-list" element={<ListTasks />} />
+        <Route path="/transaction-successful" element={<TransactionSuccessful />} />
       </Routes>
     </Router>
   );

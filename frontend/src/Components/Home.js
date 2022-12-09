@@ -22,10 +22,11 @@ const Home = () => {
               Escrow Facility
             </Heading>
             <Text className="mt-4" size="sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
-              mollitia culpa nostrum numquam reiciendis deserunt laboriosam,
-              nihil quasi cumque enim sed qui quibusdam ullam modi, perferendis
-              libero consequuntur doloribus provident.
+            A computational website to perform various deterministic computation without a trusted third party.
+
+Link to paper: <br/> <a href="https://ieeexplore.ieee.org/document/9406033">Click Here For More Info</a> <br/>
+
+Fair payment is a means of achieving some level of confidence in a transaction, and this architecture is already being employed by multiple cloud platforms in the current environment. This project proposes blockchain based solution which is zero knowledge proof free and aims to achieve robust fairness for both the users and the workers.
             </Text>
           </div>
         </div>
